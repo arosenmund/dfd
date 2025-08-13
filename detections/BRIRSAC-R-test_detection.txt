@@ -1,0 +1,5 @@
+File: ./test-samples/BRIRSAC-R-test.json
+Verdict: REAL
+Confidence: 0.0%
+
+No detection rules triggered.

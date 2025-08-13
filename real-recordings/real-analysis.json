@@ -1,0 +1,197 @@
+{
+    "codec_year": {
+        "type": "numeric",
+        "mean": 2023.0,
+        "median": 2023.0,
+        "range": 0.0,
+        "missing": 2
+    },
+    "bitrate": {
+        "type": "numeric",
+        "mean": 2550.0,
+        "median": 2500.0,
+        "range": 300.0,
+        "missing": 2
+    },
+    "ref_frames": {
+        "type": "numeric",
+        "mean": 1.0,
+        "median": 1.0,
+        "range": 0.0,
+        "missing": 2
+    },
+    "subme": {
+        "type": "numeric",
+        "mean": 2.0,
+        "median": 2.0,
+        "range": 0.0,
+        "missing": 2
+    },
+    "keyint": {
+        "type": "numeric",
+        "mean": 60.0,
+        "median": 60.0,
+        "range": 0.0,
+        "missing": 2
+    },
+    "keyint_min": {
+        "type": "numeric",
+        "mean": 6.0,
+        "median": 6.0,
+        "range": 0.0,
+        "missing": 2
+    },
+    "scenecut": {
+        "type": "numeric",
+        "mean": 0.0,
+        "median": 0.0,
+        "range": 0.0,
+        "missing": 2
+    },
+    "rc_lookahead": {
+        "type": "numeric",
+        "mean": 10.0,
+        "median": 10.0,
+        "range": 0.0,
+        "missing": 2
+    },
+    "vbv_maxrate": {
+        "type": "numeric",
+        "mean": 2550.0,
+        "median": 2500.0,
+        "range": 300.0,
+        "missing": 2
+    },
+    "vbv_bufsize": {
+        "type": "numeric",
+        "mean": 2550.0,
+        "median": 2500.0,
+        "range": 300.0,
+        "missing": 2
+    },
+    "filler": {
+        "type": "numeric",
+        "mean": 1.0,
+        "median": 1.0,
+        "range": 0.0,
+        "missing": 2
+    },
+    "threads": {
+        "type": "numeric",
+        "mean": 15.0,
+        "median": 15.0,
+        "range": 0.0,
+        "missing": 2
+    },
+    "lookahead_threads": {
+        "type": "numeric",
+        "mean": 5.0,
+        "median": 5.0,
+        "range": 0.0,
+        "missing": 2
+    },
+    "me_range": {
+        "type": "numeric",
+        "mean": 16.0,
+        "median": 16.0,
+        "range": 0.0,
+        "missing": 2
+    },
+    "chroma_qp_offset": {
+        "type": "numeric",
+        "mean": 0.0,
+        "median": 0.0,
+        "range": 0.0,
+        "missing": 2
+    },
+    "open_gop": {
+        "type": "numeric",
+        "mean": 0.0,
+        "median": 0.0,
+        "range": 0.0,
+        "missing": 2
+    },
+    "bframes": {
+        "type": "numeric",
+        "mean": 3.0,
+        "median": 3.0,
+        "range": 0.0,
+        "missing": 2
+    },
+    "b_pyramid": {
+        "type": "numeric",
+        "mean": 2.0,
+        "median": 2.0,
+        "range": 0.0,
+        "missing": 2
+    },
+    "b_adapt": {
+        "type": "numeric",
+        "mean": 1.0,
+        "median": 1.0,
+        "range": 0.0,
+        "missing": 2
+    },
+    "direct": {
+        "type": "numeric",
+        "mean": 1.0,
+        "median": 1.0,
+        "range": 0.0,
+        "missing": 2
+    },
+    "weightb": {
+        "type": "numeric",
+        "mean": 1.0,
+        "median": 1.0,
+        "range": 0.0,
+        "missing": 2
+    },
+    "weightp": {
+        "type": "numeric",
+        "mean": 1.0,
+        "median": 1.0,
+        "range": 0.0,
+        "missing": 2
+    },
+    "x264_core_revision": {
+        "type": "categorical",
+        "frequencies": {
+            "r3106": 6,
+            "missing": 2
+        },
+        "missing": 2
+    },
+    "x264_core_commit": {
+        "type": "categorical",
+        "frequencies": {
+            "eaa68fa": 6,
+            "missing": 2
+        },
+        "missing": 2
+    },
+    "rc_mode": {
+        "type": "categorical",
+        "frequencies": {
+            "cbr": 6,
+            "wWs": 1,
+            "0": 1
+        },
+        "missing": 0
+    },
+    "nal_hrd": {
+        "type": "categorical",
+        "frequencies": {
+            "none": 6,
+            "missing": 2
+        },
+        "missing": 2
+    },
+    "analyse": {
+        "type": "categorical",
+        "frequencies": {
+            "0x3:0x113": 6,
+            "missing": 2
+        },
+        "missing": 2
+    }
+}

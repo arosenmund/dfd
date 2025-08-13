@@ -1,0 +1,17 @@
+File: ./test-samples/RSAC-AARON-D1.json
+Verdict: FAKE
+Confidence: 70.6%
+
+Reasons:
+✔ codec_year (2022) ≤ threshold (2022.00) → codec_year is typically lower in fake videos
+✔ ref_frames (3) ≥ threshold (2.06) → ref_frames is typically higher in fake videos
+✔ subme (7) ≥ threshold (4.50) → subme is typically higher in fake videos
+✔ keyint (250) ≥ threshold (155.00) → keyint is typically higher in fake videos
+✔ keyint_min (25) ≥ threshold (14.94) → keyint_min is typically higher in fake videos
+✔ scenecut (40) ≥ threshold (20.00) → scenecut is typically higher in fake videos
+✔ rc_lookahead (40) ≥ threshold (25.00) → rc_lookahead is typically higher in fake videos
+✔ threads (34) ≥ threshold (18.44) → threads is typically higher in fake videos
+✔ chroma_qp_offset (-2) ≤ threshold (-1.00) → chroma_qp_offset is typically lower in fake videos
+✔ weightp (2) ≥ threshold (1.44) → weightp is typically higher in fake videos
+✔ rc_mode = crf → Fake videos frequently use crf instead of cbr
+✔ ref_frames (3) ≥ threshold (2.06) → Fake videos use more reference frames

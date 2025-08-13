@@ -1,0 +1,200 @@
+{
+    "codec_year": {
+        "type": "numeric",
+        "mean": 2021.0,
+        "median": 2022.0,
+        "range": 8.0,
+        "missing": 0
+    },
+    "bitrate": {
+        "type": "numeric",
+        "mean": NaN,
+        "median": NaN,
+        "range": NaN,
+        "missing": 8
+    },
+    "ref_frames": {
+        "type": "numeric",
+        "mean": 3.125,
+        "median": 3.0,
+        "range": 3.0,
+        "missing": 0
+    },
+    "subme": {
+        "type": "numeric",
+        "mean": 7.0,
+        "median": 7.0,
+        "range": 2.0,
+        "missing": 0
+    },
+    "keyint": {
+        "type": "numeric",
+        "mean": 250.0,
+        "median": 250.0,
+        "range": 0.0,
+        "missing": 0
+    },
+    "keyint_min": {
+        "type": "numeric",
+        "mean": 23.875,
+        "median": 25.0,
+        "range": 9.0,
+        "missing": 0
+    },
+    "scenecut": {
+        "type": "numeric",
+        "mean": 40.0,
+        "median": 40.0,
+        "range": 0.0,
+        "missing": 0
+    },
+    "rc_lookahead": {
+        "type": "numeric",
+        "mean": 40.0,
+        "median": 40.0,
+        "range": 20.0,
+        "missing": 0
+    },
+    "vbv_maxrate": {
+        "type": "numeric",
+        "mean": 1080013.6666666667,
+        "median": 1230041.0,
+        "range": 1990000.0,
+        "missing": 5
+    },
+    "vbv_bufsize": {
+        "type": "numeric",
+        "mean": 49733.666666666664,
+        "median": 49201.0,
+        "range": 60000.0,
+        "missing": 5
+    },
+    "filler": {
+        "type": "numeric",
+        "mean": 0.0,
+        "median": 0.0,
+        "range": 0.0,
+        "missing": 5
+    },
+    "threads": {
+        "type": "numeric",
+        "mean": 21.875,
+        "median": 23.0,
+        "range": 31.0,
+        "missing": 0
+    },
+    "lookahead_threads": {
+        "type": "numeric",
+        "mean": 3.375,
+        "median": 3.5,
+        "range": 4.0,
+        "missing": 0
+    },
+    "me_range": {
+        "type": "numeric",
+        "mean": 16.0,
+        "median": 16.0,
+        "range": 0.0,
+        "missing": 0
+    },
+    "chroma_qp_offset": {
+        "type": "numeric",
+        "mean": -2.0,
+        "median": -2.0,
+        "range": 0.0,
+        "missing": 0
+    },
+    "open_gop": {
+        "type": "numeric",
+        "mean": 0.0,
+        "median": 0.0,
+        "range": 0.0,
+        "missing": 0
+    },
+    "bframes": {
+        "type": "numeric",
+        "mean": 3.0,
+        "median": 3.0,
+        "range": 0.0,
+        "missing": 0
+    },
+    "b_pyramid": {
+        "type": "numeric",
+        "mean": 2.0,
+        "median": 2.0,
+        "range": 0.0,
+        "missing": 0
+    },
+    "b_adapt": {
+        "type": "numeric",
+        "mean": 1.0,
+        "median": 1.0,
+        "range": 0.0,
+        "missing": 0
+    },
+    "direct": {
+        "type": "numeric",
+        "mean": 1.25,
+        "median": 1.0,
+        "range": 2.0,
+        "missing": 0
+    },
+    "weightb": {
+        "type": "numeric",
+        "mean": 1.0,
+        "median": 1.0,
+        "range": 0.0,
+        "missing": 0
+    },
+    "weightp": {
+        "type": "numeric",
+        "mean": 1.875,
+        "median": 2.0,
+        "range": 1.0,
+        "missing": 0
+    },
+    "x264_core_revision": {
+        "type": "categorical",
+        "frequencies": {
+            "r3095": 3,
+            "missing": 2,
+            "r3191": 1,
+            "r3106": 1,
+            "r3108": 1
+        },
+        "missing": 2
+    },
+    "x264_core_commit": {
+        "type": "categorical",
+        "frequencies": {
+            "baee400": 3,
+            "missing": 2,
+            "4613ac3": 1,
+            "eaa68fa": 1,
+            "31e19f9": 1
+        },
+        "missing": 2
+    },
+    "rc_mode": {
+        "type": "categorical",
+        "frequencies": {
+            "crf": 8
+        },
+        "missing": 0
+    },
+    "nal_hrd": {
+        "type": "categorical",
+        "frequencies": {
+            "missing": 5,
+            "none": 3
+        },
+        "missing": 5
+    },
+    "analyse": {
+        "type": "categorical",
+        "frequencies": {
+            "0x3:0x113": 8
+        },
+        "missing": 0
+    }
+}
