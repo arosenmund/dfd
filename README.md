@@ -88,3 +88,9 @@ Both scripts now delegate their core logic to the shared service layer, ensuring
 - Connect the API to an authentication provider and surface the stored usage metrics in a dashboard.
 - Build a frontend that orchestrates dataset management, uploads, and reporting.
 - Extend the rule library or integrate ML models to complement the current heuristics.
+
+## AWS Deployment Architecture
+
+For a production-ready AWS design (network layout, ECS/RDS/S3 topology, security controls, async processing pattern, and phased rollout), see:
+
+- [`docs/aws-architecture.md`](docs/aws-architecture.md)
