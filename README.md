@@ -91,6 +91,13 @@ Both scripts now delegate their core logic to the shared service layer, ensuring
 
 ## AWS Deployment Architecture
 
-For a production-ready AWS design (network layout, ECS/RDS/S3 topology, security controls, async processing pattern, and phased rollout), see:
+The deployment plan has been simplified to a cost-optimized baseline for early-stage workloads:
+
+- **App Runner** hosts the FastAPI container without managing ECS clusters.
+- **Single-AZ RDS PostgreSQL** provides durable relational storage at low cost.
+- **Private S3 buckets** store uploads/results outside the container filesystem.
+
+Reference docs:
 
 - [`docs/aws-architecture.md`](docs/aws-architecture.md)
+- [`terraform/README.md`](terraform/README.md)
